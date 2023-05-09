@@ -1,5 +1,8 @@
 package Lesson6;
 class methods{
+    int suma(){
+        return 0;
+    }
     int suma(int a){
         return a;
     }
@@ -26,6 +29,6 @@ public class homework {
 
     public static void main(String[] args) {
         methods f = new methods();
-        System.out.println(f.suma("Alex", "beta"));
+        System.out.println(f.suma());
     }
 }
